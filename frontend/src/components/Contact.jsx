@@ -2,7 +2,7 @@ import React from 'react'
 import {AiFillLinkedin,AiFillGithub, AiFillTwitterCircle} from "react-icons/ai";
 const Contact = () => {
   return (
-    <div className='max-w-[1200px] mx-auto glass'>
+    <div className='max-w-[1200px] mx-auto glass' id='contact'>
 
       <div className='mx-auto max-w-[600px] text-center p-6'>
         <h2 className='text-gray-500 text-3xl md:text-5xl mb-4 font-bold'>Let`s Connect</h2>
