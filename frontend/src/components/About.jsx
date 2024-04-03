@@ -4,7 +4,7 @@ import mobileR from "../assets/mobileR.png";
 
 const About = () => {
   return (
-    <div className="text-white gap-4 mx-auto my-12 grid max-w-[1200px] sm:grid-cols-3">
+    <div className="text-white gap-4 mx-auto my-12 grid max-w-[1200px] sm:grid-cols-3" id="about">
       <div className="sm:col-span-2 glass sm:py-16 my-auto text-left p-4">
         <div className=" mx-auto max-w-[80%]">
           <h2 className="text-3xl font-bold mb-4">Hello There</h2>

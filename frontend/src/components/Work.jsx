@@ -18,7 +18,7 @@ const projects = [
 
 const Work = () => {
   return (
-    <div className='max-w-[1200px] mx-auto grid grid-cols-2 gap-4 glass p-6'>
+    <div className='max-w-[1200px] mx-auto grid grid-cols-2 gap-4 glass p-6' id='work'>
       <div className='col-span-2 my-4'>
         <h1 className='text-4xl mb-4 text-gray-300'>My Work</h1>
       </div>
