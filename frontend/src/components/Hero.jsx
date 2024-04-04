@@ -7,8 +7,8 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div className="relative grid sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 overflow-hidden md:overflow-visible" id="hero">
-      <img src={notebookL} alt="" className="hidden md:block absolute z-[-1] w-[400px] bottom-0 left-[-170px]" />
+    <div className="relative grid mt-7 md:mt-0 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 overflow-hidden md:overflow-visible" id="hero">
+      <img src={notebookL} alt="" className="hidden md:block absolute z-[-1] w-[400px] bottom-[100px] left-[50px]" />
       <img src={notebookM} alt="" className="absolute z-[-1] w-[400px] -bottom-[190px] md:bottom-0 md:left-[320px]" />
       <img src={mobileR} alt="" className="absolute z-[-1] w-[200px] bottom-[500px] left-[450px]" />
 
@@ -45,8 +45,8 @@ const Hero = () => {
       </div>
 
 
-      <div className="absolute bottom-0 right-0 w-[350px] lg:w-[600px] " >
-        <img src={profilepic} alt="" />
+      <div className="absolute bottom-0 right-0 w-[250px] lg:w-[580px] " >
+        <img src={profilepic} alt="Profile" />
       </div>
     </div>
   );

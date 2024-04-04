@@ -12,9 +12,9 @@ const Contact = () => {
 
       <div className='flex justify-center'>
         <div className='my-auto text-purple-900'>
-          <a href=''><AiFillLinkedin className='w-[100px] h-auto mb-4'/></a>
-          <a href=''><AiFillGithub className='w-[100px] h-auto mb-4'/></a>
-          <a href=''><AiFillTwitterCircle className='w-[100px] h-auto'/></a>
+          <a href='https://www.linkedin.com/in/hassaneldash/'><AiFillLinkedin className='w-[100px] h-auto mb-4'/></a>
+          <a href='https://github.com/hassaneldash/'><AiFillGithub className='w-[100px] h-auto mb-4'/></a>
+          <a href='https://twitter.com/Hassan_ELDash/'><AiFillTwitterCircle className='w-[100px] h-auto'/></a>
         </div>
 
         <div className='p-6 max-w-6xl'>
